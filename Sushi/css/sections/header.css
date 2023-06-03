@@ -4,8 +4,8 @@
 }
 
 .header__logo {
-	/* padding-left: 239px; */
-	flex: 1.1;
+	padding: 20px;
+	flex: 1;
 	display: flex;
 	position: relative;
 	/* padding-right: 100px; */
@@ -13,9 +13,10 @@
 
 .header__logo h4 {
 	font-family: var(--playfair-display);
-	padding: 19px;
-	color: #fff;
+	padding-left: 30px;
+	font-weight: 700;
 	font-size: 24px;
+	color: #fff;
 	opacity: 0.8;
 	text-transform: uppercase;
 	/* font-family: var(--plus-jakarta-sans); */
@@ -30,20 +31,11 @@
 	z-index: -1;
 }
 
-/* 
-@media screen {
-	position: absolute;
-	inset: 0;
-	width: 100%;
-	background-color: var(--primary-color);
-	z-index: -1;
-} */
-
 .header__menu,
 .header__menu-mobile {
 	padding: 20px;
 
-	flex: 1.22;
+	flex: 1.236;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;

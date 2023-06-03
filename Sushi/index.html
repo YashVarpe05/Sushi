@@ -15,9 +15,9 @@
 			<nav class="header__nav">
 				<div class="header__logo">
 					<div class="header__logo-overlay"></div>
-					<h4>Sushiman</h4>
+					<h4 data-aos="fade-down">Sushiman</h4>
 				</div>
-				<ul class="header__menu">
+				<ul class="header__menu" data-aos="fade-down">
 					<li>
 						<a href="#menu">Menu</a>
 					</li>
@@ -34,7 +34,7 @@
 						<img src="assets/search.svg" alt="search" />
 					</li>
 				</ul>
-				<ul class="header__menu-moblie">
+				<ul class="header__menu-moblie" data-aos="fade-down">
 					<li><img src="assets/menu.svg" alt="menu" /></li>
 				</ul>
 			</nav>
@@ -109,6 +109,87 @@
 				</p>
 			</div>
 		</section>
+
+		<section class="popular-foods" id="menu">
+			<h2 class="popular-foods__title">Popular Food / 人気</h2>
+
+			<div class="popular-foods__filters sushi__hide-scrollbar">
+				<button class="popular-foods__filter-btn active">All</button>
+				<button class="popular-foods__filter-btn">
+					<img src="/Sushi/assets/sushi-9.png" alt="sushi 9" />
+					Sushi
+				</button>
+				<button class="popular-foods__filter-btn">
+					<img src="/Sushi/assets/sushi-8.png" alt="sushi 9" />
+					Ramen</button
+				><button class="popular-foods__filter-btn">
+					<img src="/Sushi/assets/sushi-7.png" alt="sushi 9" />
+					Udon</button
+				><button class="popular-foods__filter-btn">
+					<img src="/Sushi/assets/sushi-6.png" alt="sushi 9" />
+					Danggo
+				</button>
+				<button class="popular-foods__filter-btn">Other</button>
+			</div>
+
+			<div class="popular-foods__catalogue">
+				<!-- javascript -->
+				<article class="popular-foods__card">
+					<img
+						src="assets/sushi-12.png"
+						alt="sushi-12"
+						class="popular-foods__card-image"
+					/>
+					<h4 class="popular-foods__card-title">hezu Sushi</h4>
+
+					<div class="popular-foods__card-details flex-between">
+						<div class="popular-foods__card-rating">
+							<img src="assets/star.svg" alt="star" />
+							<p>4.9</p>
+						</div>
+						<p class="popular-foods__card-price">$21.00</p>
+					</div>
+				</article>
+
+				<article class="popular-foods__card active-card">
+					<img
+						src="assets/sushi-11.png"
+						alt="sushi-10"
+						class="popular-foods__card-image"
+					/>
+					<h4 class="popular-foods__card-title">Original Sushi</h4>
+
+					<div class="popular-foods__card-details flex-between">
+						<div class="popular-foods__card-rating">
+							<img src="assets/star.svg" alt="star" />
+							<p>4.7</p>
+						</div>
+						<p class="popular-foods__card-price">$20.00</p>
+					</div>
+				</article>
+				<article class="popular-foods__card">
+					<img
+						src="assets/sushi-10.png"
+						alt="sushi-11"
+						class="popular-foods__card-image"
+					/>
+					<h4 class="popular-foods__card-title">Ramen Sushi</h4>
+
+					<div class="popular-foods__card-details flex-between">
+						<div class="popular-foods__card-rating">
+							<img src="assets/star.svg" alt="star" />
+							<p>4.7</p>
+						</div>
+						<p class="popular-foods__card-price">$15.00</p>
+					</div>
+				</article>
+			</div>
+			<button class="popular-foods__button">
+				Explore Food
+				<img src="assets/arrow-right.svg" alt="arrow-right" />
+			</button>
+		</section>
+
 		<script type="module" src="../Sushi/js/script.js"></script>
 	</body>
 </html>
