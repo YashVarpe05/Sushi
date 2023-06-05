@@ -54,7 +54,7 @@
 	border-radius: 100%;
 }
 
-.footer__social li img {
+.footer__social li a {
 	width: 45%;
 	height: 45%;
 
