@@ -6,7 +6,7 @@
 
 ## sushi
 
-![App Screenshot](</Sushi/assets/Frame%201%20(1).png>)
+![App Screenshot](<./assets/Frame%201%20(1).png>)
 
 ## 🚀 About Me
 
