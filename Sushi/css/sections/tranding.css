@@ -70,7 +70,7 @@
 	flex: 1;
 
 	position: relative;
-	padding: 32px 64px;
+	padding: 32px 60px;
 	background-color: var(--color-white);
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -99,6 +99,7 @@
 	height: 160px;
 	background-color: var(--secondary-color);
 	border-radius: 100%;
+	cursor: pointer;
 
 	display: flex;
 	justify-self: center;
@@ -107,7 +108,7 @@
 .trending__discover p {
 	color: #fff;
 	text-transform: uppercase;
-
+	margin-left: 28px;
 	font-size: 18px;
 	font-weight: 500;
 	font-family: var(--plus-jakarta-sans);
