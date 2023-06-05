@@ -7,7 +7,7 @@
 @import url("sections/about.css");
 @import url("sections/popular.css");
 @import url("sections/tranding.css");
-/* @import url("sections/subscribe.css"); */
+@import url("sections/subscribe.css");
 @import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
