@@ -2,7 +2,9 @@
 
 # Hi, I'm Yash Varpe! 👋
 
-## 🔗 Build A Responsive website of Sushi by using HTML,CSS,JS [!(https://yashvarpe05.github.io/Sushi/)]
+## 🔗 Build A Responsive website of Sushi by using HTML,CSS,JS
+
+- [SushiMan](https://yashvarpe05.github.io/Sushi/)
 
 ## sushi
 
